@@ -65,23 +65,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-const greeter = __webpack_require__(1);
-document.querySelector("#root").appendChild(greeter());
-
-
-/***/ }),
-/* 1 */
 /***/ (function(module, exports) {
 
-// 我们在Greeter.js中定义一个返回包含问候信息的html元素的函数,并依据CommonJS规范导出这个函数为一个模块：
-module.exports = function(){
-    var greet = document.createElement('div');
-    greet.textContent = "Hi there and greetings!";
-    return greet;
-};
-
+eval("throw new Error(\"Module build failed: Error: Couldn't find preset \\\"es2015\\\" relative to directory \\\"E:\\\\\\\\www\\\\\\\\Library\\\\\\\\Webpack\\\"\\n    at E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\file\\\\options\\\\option-manager.js:293:19\\n    at Array.map (native)\\n    at OptionManager.resolvePresets (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\file\\\\options\\\\option-manager.js:275:20)\\n    at OptionManager.mergePresets (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\file\\\\options\\\\option-manager.js:264:10)\\n    at OptionManager.mergeOptions (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\file\\\\options\\\\option-manager.js:249:14)\\n    at OptionManager.init (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\file\\\\options\\\\option-manager.js:368:12)\\n    at File.initOptions (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\file\\\\index.js:212:65)\\n    at new File (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\file\\\\index.js:135:24)\\n    at Pipeline.transform (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-core@6.26.0@babel-core\\\\lib\\\\transformation\\\\pipeline.js:46:16)\\n    at transpile (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-loader@7.1.2@babel-loader\\\\lib\\\\index.js:50:20)\\n    at Object.module.exports (E:\\\\www\\\\Library\\\\Webpack\\\\node_modules\\\\_babel-loader@7.1.2@babel-loader\\\\lib\\\\index.js:175:20)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIwLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///0\n");
 
 /***/ })
 /******/ ]);

@@ -20,6 +20,15 @@
   },
   "homepage": "https://github.com/zhoujing0519/Webpack#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "find-cache-dir": "^1.0.0",
+    "style-loader": "^0.18.2",
     "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
